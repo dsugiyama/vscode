@@ -107,7 +107,7 @@ function getElectron(arch: string): () => NodeJS.ReadWriteStream {
 	};
 }
 
-async function main(arch = process.arch): Promise<void> {
+async function main(arch = "arm64"): Promise<void> {
 	const version = getElectronVersion();
 	const electronPath = path.join(root, '.build', 'electron');
 	const versionFile = path.join(electronPath, 'version');
