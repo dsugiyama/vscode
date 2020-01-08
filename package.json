@@ -53,7 +53,7 @@
     "vscode-nsfw": "1.2.8",
     "vscode-proxy-agent": "^0.5.2",
     "vscode-ripgrep": "^1.5.7",
-    "vscode-sqlite3": "4.0.9",
+    "vscode-sqlite3": "../vscode-node-sqlite3",
     "vscode-textmate": "4.4.0",
     "xterm": "4.4.0-beta.15",
     "xterm-addon-search": "0.4.0-beta4",
